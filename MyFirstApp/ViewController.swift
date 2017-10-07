@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var helloLabel: UILabel!
+    
+    @IBAction func Goodbye(_ sender: Any) {
+        helloLabel.text = "Good Bye!"
+        helloLabel.text = 
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //view.backgroundColor = UIColor.purple
+        let name = "Barbie"
+        helloLabel.text = "Hi, \(name)"
     }
 
     override func didReceiveMemoryWarning() {

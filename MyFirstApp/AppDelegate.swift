@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MyFirstApp
 //
-//  Created by BB on 10/7/17.
+//  Created by Barbara Boutette on 10/7/17.
 //  Copyright © 2017 Barbara Boutette. All rights reserved.
 //
 
